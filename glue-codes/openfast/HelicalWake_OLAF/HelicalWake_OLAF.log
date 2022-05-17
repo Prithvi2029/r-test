@@ -1,0 +1,60 @@
+
+ **************************************************************************************************
+ OpenFAST
+
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 Envision Energy USA LTD
+
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ See the "LICENSE" file distributed with this software for details.
+ **************************************************************************************************
+
+ OpenFAST-v3.1.0-143-gaeb6c43f-dirty
+ Compile Info:
+  - Compiler: GCC version 10.3.0
+  - Architecture: 64 bit
+  - Precision: double
+  - OpenMP: No
+  - Date: May 17 2022
+  - Time: 14:55:58
+ Execution Info:
+  - Date: 05/17/2022
+  - Time: 15:24:03-0500
+
+ OpenFAST input file heading:
+     Helical wake test case for OLAF free wake vortex in AD15
+
+ Running ElastoDyn.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Running AeroDyn.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ Skipping nodal outputs.
+ Running OLAF.
+  - Directory:         /Users/rmudafor/Development/openfast/build/reg_tests
+  - RootName:
+  /Users/rmudafor/Development/openfast/build/reg_tests/glue-codes/openfast/HelicalWake_OLAF/Helical
+  Wake_OLAF.
+  - No OpenMP support
+  - OLAF regularization parameters (for wing 1):
+    BladeReg (min/max):   0.0010  0.0010
+    WakeReg (min/max) :   0.0010  0.0010
+    k = alpha delta nu:   0.0018
+ Running InflowWind.
+
+ FAST_InitializeAll:InitModuleMappings:ED_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ 2:CreateMapping_ProjectToLine2:Found close value for node 51. (9.99253E-05 m)
+ InitModuleMappings:ED_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ jectToLine2:Found close value for node 51. (9.99253E-05 m)
+ InitModuleMappings:ED_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ jectToLine2:Found close value for node 51. (9.99253E-05 m)
+
+  Time: 0 of 70 seconds.
+                                                                                                   Time: 2 of 70 seconds.  Estimated final completion at 15:24:59.                                                                                                                                     Time: 4 of 70 seconds.  Estimated final completion at 15:25:21.                                                                                                                                     Time: 6 of 70 seconds.  Estimated final completion at 15:25:47.                                                                                                                                     Time: 8 of 70 seconds.  Estimated final completion at 15:26:06.                                                                                                                                     Time: 10 of 70 seconds.  Estimated final completion at 15:26:18.                                                                                                                                    Time: 12 of 70 seconds.  Estimated final completion at 15:26:13.                                                                                                                                    Time: 14 of 70 seconds.  Estimated final completion at 15:26:13.                                                                                                                                    Time: 16 of 70 seconds.  Estimated final completion at 15:26:29.                                                                                                                                    Time: 18 of 70 seconds.  Estimated final completion at 15:26:21.                                                                                                                                    Time: 20 of 70 seconds.  Estimated final completion at 15:26:28.                                                                                                                                    Time: 22 of 70 seconds.  Estimated final completion at 15:26:30.                                                                                                                                    Time: 24 of 70 seconds.  Estimated final completion at 15:26:33.                                                                                                                                    Time: 26 of 70 seconds.  Estimated final completion at 15:26:37.                                                                                                                                    Time: 28 of 70 seconds.  Estimated final completion at 15:26:35.                                                                                                                                    Time: 30 of 70 seconds.  Estimated final completion at 15:26:40.                                                                                                                                    Time: 32 of 70 seconds.  Estimated final completion at 15:26:39.                                                                                                                                    Time: 34 of 70 seconds.  Estimated final completion at 15:26:36.                                                                                                                                    Time: 36 of 70 seconds.  Estimated final completion at 15:26:35.                                                                                                                                    Time: 38 of 70 seconds.  Estimated final completion at 15:26:38.                                                                                                                                    Time: 40 of 70 seconds.  Estimated final completion at 15:26:40.                                                                                                                                    Time: 42 of 70 seconds.  Estimated final completion at 15:26:36.                                                                                                                                    Time: 44 of 70 seconds.  Estimated final completion at 15:26:36.                                                                                                                                    Time: 46 of 70 seconds.  Estimated final completion at 15:26:31.                                                                                                                                    Time: 48 of 70 seconds.  Estimated final completion at 15:26:34.                                                                                                                                    Time: 50 of 70 seconds.  Estimated final completion at 15:26:31.                                                                                                                                    Time: 52 of 70 seconds.  Estimated final completion at 15:26:29.                                                                                                                                    Time: 54 of 70 seconds.  Estimated final completion at 15:26:27.                                                                                                                                    Time: 56 of 70 seconds.  Estimated final completion at 15:26:26.                                                                                                                                    Time: 58 of 70 seconds.  Estimated final completion at 15:26:28.                                                                                                                                    Time: 60 of 70 seconds.  Estimated final completion at 15:26:27.                                                                                                                                    Time: 62 of 70 seconds.  Estimated final completion at 15:26:26.                                                                                                                                    Time: 64 of 70 seconds.  Estimated final completion at 15:26:25.                                                                                                                                    Time: 66 of 70 seconds.  Estimated final completion at 15:26:26.                                                                                                                                    Time: 68 of 70 seconds.  Estimated final completion at 15:26:25.                                                                                                                                    Time: 70 of 70 seconds.  Estimated final completion at 15:26:25.                                                                                                                                   
+  Total Real Time:       2.3607 minutes
+  Total CPU Time:        2.3506 minutes
+  Simulation CPU Time:   2.3495 minutes
+  Simulated Time:        1.1667 minutes
+  Time Ratio (Sim/CPU):  0.49655
+
+  OpenFAST terminated normally.
+

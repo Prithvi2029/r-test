@@ -1,0 +1,63 @@
+
+ **************************************************************************************************
+ OpenFAST
+
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 Envision Energy USA LTD
+
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ See the "LICENSE" file distributed with this software for details.
+ **************************************************************************************************
+
+ OpenFAST-v3.1.0-143-gaeb6c43f-dirty
+ Compile Info:
+  - Compiler: GCC version 10.3.0
+  - Architecture: 64 bit
+  - Precision: double
+  - OpenMP: No
+  - Date: May 17 2022
+  - Time: 14:55:58
+ Execution Info:
+  - Date: 05/17/2022
+  - Time: 15:24:03-0500
+
+ OpenFAST input file heading:
+     FAST Certification Test #15: SWRT 3-bladed upwind turbine with many DOFs, variable speed
+     control, free yaw, tail-furl, EOG01 event
+
+ Running ElastoDyn.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Running AeroDyn.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ Skipping nodal outputs.
+ Running InflowWind.
+ Running ServoDyn.
+
+ FAST_InitializeAll: IfW_Init:IfW_UniformWind_Init: Could not read upflow column in uniform wind
+ files. Assuming upflow is 0.
+
+  Time: 0 of 20 seconds.
+
+  Using variable speed generator option.
+    RPM and Torque (Nm) for SWRT rotor mod by CH Aug 9, 2004 with new test data.  See Config B
+    Torque vs RPM.xls
+
+
+ FAST_Solution:CalcOutputs_And_SolveForInputs:SolveOption2:RotCalcOutput:BEMT_CalcOutput(node 1,
+ blade 1):UA_CalcOutput:UA_BlendSteady:Temporarily turning off UA due to high angle of attack or
+ low relative velocity. This warning will not be repeated though the condition may persist.
+
+                                                                                                   Time: 1 of 20 seconds.  Estimated final completion at 15:29:35.                                                                                                                                     Time: 2 of 20 seconds.  Estimated final completion at 15:30:27.                                                                                                                                     Time: 3 of 20 seconds.  Estimated final completion at 15:31:06.                                                                                                                                     Time: 4 of 20 seconds.  Estimated final completion at 15:31:02.                                                                                                                                     Time: 5 of 20 seconds.  Estimated final completion at 15:30:45.                                                                                                                                     Time: 6 of 20 seconds.  Estimated final completion at 15:30:03.                                                                                                                                     Time: 7 of 20 seconds.  Estimated final completion at 15:29:39.                                                                                                                                     Time: 8 of 20 seconds.  Estimated final completion at 15:29:17.                                                                                                                                     Time: 9 of 20 seconds.  Estimated final completion at 15:29:11.                                                                                                                                     Time: 10 of 20 seconds.  Estimated final completion at 15:28:58.                                                                                                                                    Time: 11 of 20 seconds.  Estimated final completion at 15:28:47.                                                                                                                                    Time: 12 of 20 seconds.  Estimated final completion at 15:28:41.                                                                                                                                    Time: 13 of 20 seconds.  Estimated final completion at 15:28:36.                                 
+ FAST_Solution:CalcOutputs_And_SolveForInputs:SolveOption2:RotCalcOutput:BEMT_CalcOutput(node 17,
+ blade 1):UA_CalcOutput:Mach number exceeds 0.3. Theory is invalid. This warning will not be
+ repeated though the condition may persist.
+
+                                                                                                   Time: 14 of 20 seconds.  Estimated final completion at 15:28:31.                                                                                                                                    Time: 15 of 20 seconds.  Estimated final completion at 15:28:30.                                                                                                                                    Time: 16 of 20 seconds.  Estimated final completion at 15:28:28.                                                                                                                                    Time: 17 of 20 seconds.  Estimated final completion at 15:28:27.                                                                                                                                    Time: 18 of 20 seconds.  Estimated final completion at 15:28:26.                                                                                                                                    Time: 19 of 20 seconds.  Estimated final completion at 15:28:26.                                                                                                                                    Time: 20 of 20 seconds.  Estimated final completion at 15:28:25.                                                                                                                                   
+  Total Real Time:       4.3611 minutes
+  Total CPU Time:        4.3494 minutes
+  Simulation CPU Time:   4.3471 minutes
+  Simulated Time:        0.33333 minutes
+  Time Ratio (Sim/CPU):  7.66799E-02
+
+  OpenFAST terminated normally.
+

@@ -1,0 +1,71 @@
+
+ **************************************************************************************************
+ OpenFAST
+
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 Envision Energy USA LTD
+
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ See the "LICENSE" file distributed with this software for details.
+ **************************************************************************************************
+
+ OpenFAST-v3.1.0-143-gaeb6c43f-dirty
+ Compile Info:
+  - Compiler: GCC version 10.3.0
+  - Architecture: 64 bit
+  - Precision: double
+  - OpenMP: No
+  - Date: May 17 2022
+  - Time: 14:55:58
+ Execution Info:
+  - Date: 05/17/2022
+  - Time: 15:23:41-0500
+
+ OpenFAST input file heading:
+     FAST Certification Test #12: WindPACT 1.5 MW Baseline with many DOFs with VS and VP and ECD
+     wind.
+
+ Running ElastoDyn.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Running AeroDyn.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ Skipping nodal outputs.
+ Warning: Turning off Unsteady Aerodynamics because UA parameters are not included in airfoil
+ (airfoil has likely has constant polars). (node 1, blade 1)
+ Warning: Turning off Unsteady Aerodynamics because UA parameters are not included in airfoil
+ (airfoil has likely has constant polars). (node 2, blade 1)
+ Warning: Turning off Unsteady Aerodynamics because UA parameters are not included in airfoil
+ (airfoil has likely has constant polars). (node 1, blade 2)
+ Warning: Turning off Unsteady Aerodynamics because UA parameters are not included in airfoil
+ (airfoil has likely has constant polars). (node 2, blade 2)
+ Warning: Turning off Unsteady Aerodynamics because UA parameters are not included in airfoil
+ (airfoil has likely has constant polars). (node 1, blade 3)
+ Warning: Turning off Unsteady Aerodynamics because UA parameters are not included in airfoil
+ (airfoil has likely has constant polars). (node 2, blade 3)
+ Running InflowWind.
+ Running ServoDyn.
+
+ FAST_InitializeAll: IfW_Init:IfW_UniformWind_Init: Could not read upflow column in uniform wind
+ files. Assuming upflow is 0.
+
+  Time: 0 of 20 seconds.
+                                                                                                   Time: 1 of 20 seconds.  Estimated final completion at 15:23:60.                                                                                                                                     Time: 2 of 20 seconds.  Estimated final completion at 15:23:60.                                                                                                                                     Time: 3 of 20 seconds.  Estimated final completion at 15:23:56.                                                                                                                                     Time: 4 of 20 seconds.  Estimated final completion at 15:23:56.                                  
+ ***********************************************
+ Running with control option using data from:
+  Speed controller for ADAMS WindPACT 15A1001 model April, 2002.
+ ***********************************************
+
+                                                                                                   Time: 5 of 20 seconds.  Estimated final completion at 15:23:58.                                                                                                                                     Time: 6 of 20 seconds.  Estimated final completion at 15:23:57.                                                                                                                                     Time: 7 of 20 seconds.  Estimated final completion at 15:23:58.                                                                                                                                     Time: 8 of 20 seconds.  Estimated final completion at 15:23:58.                                                                                                                                     Time: 9 of 20 seconds.  Estimated final completion at 15:23:59.                                  
+ FAST_Solution:CalcOutputs_And_SolveForInputs:SolveOption2:RotCalcOutput:BEMT_CalcOutput(node 3,
+ blade 3):UA_CalcOutput:UA_BlendSteady:Temporarily turning off UA due to high angle of attack or
+ low relative velocity. This warning will not be repeated though the condition may persist.
+
+                                                                                                   Time: 10 of 20 seconds.  Estimated final completion at 15:23:60.                                                                                                                                    Time: 11 of 20 seconds.  Estimated final completion at 15:24:00.                                                                                                                                    Time: 12 of 20 seconds.  Estimated final completion at 15:24:02.                                                                                                                                    Time: 13 of 20 seconds.  Estimated final completion at 15:24:02.                                                                                                                                    Time: 14 of 20 seconds.  Estimated final completion at 15:24:03.                                                                                                                                    Time: 15 of 20 seconds.  Estimated final completion at 15:24:02.                                                                                                                                    Time: 16 of 20 seconds.  Estimated final completion at 15:24:03.                                                                                                                                    Time: 17 of 20 seconds.  Estimated final completion at 15:24:03.                                                                                                                                    Time: 18 of 20 seconds.  Estimated final completion at 15:24:03.                                                                                                                                    Time: 19 of 20 seconds.  Estimated final completion at 15:24:03.                                                                                                                                    Time: 20 of 20 seconds.  Estimated final completion at 15:24:03.                                                                                                                                   
+  Total Real Time:       21.833 seconds
+  Total CPU Time:        21.727 seconds
+  Simulation CPU Time:   21.693 seconds
+  Simulated Time:        20 seconds
+  Time Ratio (Sim/CPU):  0.92194
+
+  OpenFAST terminated normally.
+

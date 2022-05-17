@@ -1,0 +1,49 @@
+
+ **************************************************************************************************
+ OpenFAST
+
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 Envision Energy USA LTD
+
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ See the "LICENSE" file distributed with this software for details.
+ **************************************************************************************************
+
+ OpenFAST-v3.1.0-143-gaeb6c43f-dirty
+ Compile Info:
+  - Compiler: GCC version 10.3.0
+  - Architecture: 64 bit
+  - Precision: double
+  - OpenMP: No
+  - Date: May 17 2022
+  - Time: 14:55:58
+ Execution Info:
+  - Date: 05/17/2022
+  - Time: 15:23:41-0500
+
+ OpenFAST input file heading:
+     FAST Certification Test #10: UAE Phase VI (upwind) with no DOFs in a ramped wind.
+
+ Running ElastoDyn.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Running AeroDyn.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ Skipping nodal outputs.
+ Running InflowWind.
+ Running ServoDyn.
+
+ FAST_InitializeAll: IfW_Init:IfW_UniformWind_Init: Could not read upflow column in uniform wind
+ files. Assuming upflow is 0.
+
+  Time: 0 of 25 seconds.
+                                                                                                   Time: 1 of 25 seconds.  Estimated final completion at 15:24:22.                                                                                                                                     Time: 2 of 25 seconds.  Estimated final completion at 15:24:14.                                                                                                                                     Time: 3 of 25 seconds.  Estimated final completion at 15:24:17.                                                                                                                                     Time: 4 of 25 seconds.  Estimated final completion at 15:24:18.                                                                                                                                     Time: 5 of 25 seconds.  Estimated final completion at 15:24:20.                                                                                                                                     Time: 6 of 25 seconds.  Estimated final completion at 15:24:24.                                                                                                                                     Time: 7 of 25 seconds.  Estimated final completion at 15:24:29.                                                                                                                                     Time: 8 of 25 seconds.  Estimated final completion at 15:24:32.                                                                                                                                     Time: 9 of 25 seconds.  Estimated final completion at 15:24:35.                                                                                                                                     Time: 10 of 25 seconds.  Estimated final completion at 15:24:35.                                                                                                                                    Time: 11 of 25 seconds.  Estimated final completion at 15:24:39.                                                                                                                                    Time: 12 of 25 seconds.  Estimated final completion at 15:24:44.                                                                                                                                    Time: 13 of 25 seconds.  Estimated final completion at 15:24:48.                                                                                                                                    Time: 14 of 25 seconds.  Estimated final completion at 15:24:49.                                                                                                                                    Time: 15 of 25 seconds.  Estimated final completion at 15:24:59.                                                                                                                                    Time: 16 of 25 seconds.  Estimated final completion at 15:24:59.                                                                                                                                    Time: 17 of 25 seconds.  Estimated final completion at 15:24:56.                                                                                                                                    Time: 18 of 25 seconds.  Estimated final completion at 15:25:01.                                  The BEM solution is being turned off due to low TSR.  (TSR = 1.9996). This warning will not be
+ repeated though the condition may persist. (See GeomPhi output channel.)
+                                                                                                   Time: 19 of 25 seconds.  Estimated final completion at 15:25:00.                                                                                                                                    Time: 20 of 25 seconds.  Estimated final completion at 15:25:01.                                                                                                                                    Time: 21 of 25 seconds.  Estimated final completion at 15:25:01.                                                                                                                                    Time: 22 of 25 seconds.  Estimated final completion at 15:25:02.                                                                                                                                    Time: 23 of 25 seconds.  Estimated final completion at 15:25:02.                                                                                                                                    Time: 24 of 25 seconds.  Estimated final completion at 15:25:02.                                                                                                                                    Time: 25 of 25 seconds.  Estimated final completion at 15:25:02.                                                                                                                                   
+  Total Real Time:       1.3493 minutes
+  Total CPU Time:        1.3408 minutes
+  Simulation CPU Time:   1.3397 minutes
+  Simulated Time:        0.41667 minutes
+  Time Ratio (Sim/CPU):  0.31101
+
+  OpenFAST terminated normally.
+
