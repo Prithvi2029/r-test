@@ -1,0 +1,40 @@
+
+ **************************************************************************************************
+ OpenFAST
+
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 Envision Energy USA LTD
+
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ See the "LICENSE" file distributed with this software for details.
+ **************************************************************************************************
+
+ OpenFAST-v3.1.0-144-g80993eaf-dirty
+ Compile Info:
+  - Compiler: GCC version 10.3.0
+  - Architecture: 64 bit
+  - Precision: double
+  - OpenMP: No
+  - Date: May 17 2022
+  - Time: 14:55:58
+ Execution Info:
+  - Date: 05/17/2022
+  - Time: 18:58:02-0500
+
+ OpenFAST input file heading:
+     MonopileOnly
+
+ Running ElastoDyn.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Running ExtPtfm_MCKF.
+
+  Time: 0 of 25 seconds.
+                                                                                                   Time: 1 of 25 seconds.  Estimated final completion at 18:58:32.                                                                                                                                     Time: 2 of 25 seconds.  Estimated final completion at 18:58:29.                                                                                                                                     Time: 3 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                     Time: 4 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                     Time: 5 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                     Time: 6 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                     Time: 7 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                     Time: 8 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                     Time: 9 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                     Time: 10 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 11 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 12 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 13 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 14 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 15 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 16 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 17 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 18 of 25 seconds.  Estimated final completion at 18:58:29.                                                                                                                                    Time: 19 of 25 seconds.  Estimated final completion at 18:58:29.                                                                                                                                    Time: 20 of 25 seconds.  Estimated final completion at 18:58:29.                                                                                                                                    Time: 21 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 22 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 23 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 24 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                    Time: 25 of 25 seconds.  Estimated final completion at 18:58:28.                                                                                                                                   
+  Total Real Time:       25.492 seconds
+  Total CPU Time:        25.455 seconds
+  Simulation CPU Time:   25.399 seconds
+  Simulated Time:        25 seconds
+  Time Ratio (Sim/CPU):  0.98428
+
+  OpenFAST terminated normally.
+
